@@ -75,15 +75,15 @@ jar {
 	}
 }
 
-spotless {
-	java {
-		removeUnusedImports()
-		indentWithTabs()
-		trimTrailingWhitespace()
-		eclipse().configFile(file("codestyle/formatter.xml"))
-		lineEndings('WINDOWS')
-	}
-}
+//spotless {
+//	java {
+//		removeUnusedImports()
+//		indentWithTabs()
+//		trimTrailingWhitespace()
+//		eclipse().configFile(file("codestyle/formatter.xml"))
+//		lineEndings('WINDOWS')
+//	}
+//}
 
 // configure the maven publication
 publishing {
